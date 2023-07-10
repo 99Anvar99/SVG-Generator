@@ -1,16 +1,12 @@
 class Shape {
-  constructor() {
-    this.color = "";
-  }
-
-  setColor(color) {
-    this.color = color;
-  }
-
-  render() {
-   console.log(this.color);
-  }
-
+    constructor(userText, textColor, userShape, backgroundColor) {
+        this.text = userText;
+        this.textColor = textColor;
+        this.shape = userShape;
+        this.backgroundColor = backgroundColor;
+    }
+    makeSVG() {
+        throw new Error('makeSVG() must be implemented in a subclass.');
+    }
 }
-
 module.exports = Shape;
