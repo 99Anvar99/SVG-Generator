@@ -8,7 +8,7 @@ npm install inquirer@8.2.4 jest
 ```
 
 # Testing
-- Before testing the program, ensure that you are located within the main project directory.
+- Before testing the program, ensure that you are located within the svg-logo-maker directory.
 - Next, open your terminal and execute:
 ```
 npm test
